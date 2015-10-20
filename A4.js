@@ -230,7 +230,7 @@ console.info(pMatrix.elements);
 // TODO: REPLACE the following line with a ShaderMaterial, pass texture and
 // projector related matrices to the vertex shader
 //var pMat = new THREE.MeshBasicMaterial();
-var logoTexture = THREE.ImageUtils.loadTexture('logoUBC.jpg.');
+var logoTexture = THREE.ImageUtils.loadTexture('logoUBC.jpg');
 var pMaterial      = new THREE.ShaderMaterial({
    uniforms: {
      logoTexture: {type: "t", value: logoTexture},
